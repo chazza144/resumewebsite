@@ -1,2 +1,0 @@
-# resume
-training / learning
