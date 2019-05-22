@@ -18,6 +18,10 @@
     background-color: #9b59b6;
 }
 
+.bg-color-contact {
+    background-color: #fff;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -68,8 +72,10 @@ h4 {
 .general-sub {
     font-family: "Exo", sans-serif;
     font-weight: 300;
+    padding-top: 20px;
     color: #fafafa;
 }
+
 
 .inline-block {
     display: inline-block;
@@ -161,7 +167,7 @@ header {
 }
 
 .menuitem a i {
-    padding-top: 22px;
+    padding-top: 30px;
     display: block;
     color: #fafafa;
     font-size: 26px;
@@ -289,7 +295,7 @@ footer {
     position: relative;
     height: 25px;
     margin-bottom: 4px;
-    
+
 }
 
 .progress-type {
@@ -303,7 +309,7 @@ footer {
 
 .progress-section {
     margin: 40px 20px 5px 20px;
-    
+
 }
 
 /* ----------------------------------------Work History*/
@@ -319,6 +325,7 @@ footer {
     color: #fafafa;
     border-left: 1px solid;
 }
+
 .timeline-item p {
     padding: 0;
     margin: 0;
@@ -330,12 +337,13 @@ footer {
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: "Exo" , sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 500;
     font-size: 0.8em;
     padding: 0;
     margin: 0;
 }
+
 .timeline-item:after {
     width: 12px;
     height: 12px;
@@ -350,4 +358,37 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/* ----------------------------------------Contact form*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/* ----------------------------------------Media Queries*/
+
+@media(min-width:992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
