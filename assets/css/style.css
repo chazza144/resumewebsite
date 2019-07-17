@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Playfair+Display:400,700');
 
 /*--------------------------------------------Colors*/
 
@@ -23,7 +23,7 @@
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #008080/*#e67e22*/;
 }
 
 .ui-menu-color-resume {
@@ -109,7 +109,7 @@ header {
 }
 
 .logo {
-    background: url("../images/rosie.jpg");
+    background: url("../images/me.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -120,15 +120,14 @@ header {
 }
 
 .name {
-    font-family: "Exo", sans-serif;
-    font-weight: 100;
+    font-family: "Playfair Display", serif;
     font-size: 46px;
     margin-top: 50px;
     color: #fff;
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
+    font-family: "Playfair Display", serif;
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
@@ -212,7 +211,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: #e84610;
+    color: #008080;
 }
 
 .social-links {
@@ -236,7 +235,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #008080;
 }
 
 #footer-details {
@@ -247,7 +246,7 @@ footer {
 
 .three-reasons-icon {
     font-size: 26px;
-    color: #e67e22;
+    color: #008080;
 }
 
 .three-reasons-heading {
