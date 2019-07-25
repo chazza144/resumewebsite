@@ -4,7 +4,7 @@
 /*--------------------------------------------Colors & shadowing*/
 
 .bg-color-name-title {
-    background-color: #676767;
+    background-color: #91ABAA;
 }
 
 
@@ -17,7 +17,7 @@
 }
 
 .bg-color-work-history {
-    background-color: #9b59b6;
+    background-color: #AA7FB5;
 }
 
 .bg-color-contact {
@@ -29,6 +29,7 @@
     ;
     box-shadow: inset 10px 10px 4px #015f63,
     inset -10px -10px 4px #004545;
+    
 }
 
 .ui-menu-color-home a,
@@ -46,8 +47,8 @@
 }
 
 .ui-menu-color-resume {
-    background-color: #9b59b6;
-    box-shadow: inset 10px 10px 5px #79458f,
+    background-color: #AA7FB5;
+    box-shadow: inset 10px 10px 5px #906B99,
     inset -10px -10px 5px #5d366e;
 }
 
@@ -191,7 +192,7 @@ header {
 }
 
 .menuitem {
-    height: 120px;
+    height: 100px;
     text-align: center;
     padding: 0;
 }
@@ -200,11 +201,11 @@ header {
     width: 100%;
     text-decoration: none;
     color: #fff;
-    height: 120px;
+    height: 100px;
 }
 
 .menuitem a i {
-    padding-top: 30px;
+    padding-top: 25px;
     display: block;
     color: #fafafa;
     font-size: 26px;
@@ -225,7 +226,7 @@ header {
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
-    height: 120px;
+    height: 100px;
 }
 
 /* ----------------------------------------Footer */
@@ -235,6 +236,7 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+    text-align: center;
 }
 
 .cv-pdf i {
@@ -433,9 +435,11 @@ button[type="submit"] {
     }
 }
 
-/*@media(max-width:765px) {
-    .logo,
-    .bg-color-name-title {
+@media(max-width:765px) {
+    .logo {
         display: none
     }
-}*/
+    .title {
+        margin-bottom:30px;
+    }
+}
