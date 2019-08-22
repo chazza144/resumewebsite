@@ -4,7 +4,7 @@
 /*--------------------------------------------Colors & shadowing*/
 
 .bg-color-name-title {
-    background-color: #91ABAA;
+    background-color: #7bc9b7;
 }
 
 
@@ -29,7 +29,7 @@
     ;
     box-shadow: inset 10px 10px 4px #015f63,
     inset -10px -10px 4px #004545;
-    
+
 }
 
 .ui-menu-color-home a,
@@ -153,6 +153,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
+    max-height: 500px
 }
 
 .name {
@@ -234,7 +235,7 @@ header {
 footer {
     background-color: #525252;
     color: #fafafa;
-    min-height: 120px;
+    min-height: 180px;
     margin: 0;
     text-align: center;
 }
@@ -408,7 +409,7 @@ footer {
     font-weight: bold;
     margin-top: 25px;
     margin-bottom: 20px;
-    
+
 }
 
 .center-form {
@@ -440,6 +441,9 @@ button[type="submit"] {
         display: none
     }
     .title {
-        margin-bottom:30px;
+        margin-bottom: 30px;
+    }
+    footer {
+        min-height: 150px;
     }
 }
